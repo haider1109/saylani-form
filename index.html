@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="header">
+        <img src="./images/saylani logo.PNG" alt="saylani-logo">
+        <h1>Saylani Mass Training &amp; Job Creation Program</h1>
+        <h1>Registration / Entry Test Form</h1>
+    </div>
+    <div id="body">
+        <form>
+            <div class="course">
+                <label for="course">
+                    <p>Select Your Course*</p>
+                    <select name="course" class="sc">
+                        <option value="Select-Course">Select Course</option>
+                        <option value="it-essentials">IT Essential Fsd</option>
+                    </select>
+                </label>
+                <label for="batch" class="sb">
+                    <p>Select Batch*</p>
+                    <select name="batch">
+                        <option value="number">6</option>
+                    </select>
+                </label>
+            </div>
+            <p>Your Name* <br>
+                <input type="text" name="Username" id="name" placeholder="Your Name" size="180">
+            </p>
+            <div class="adob">
+                <label for="dob">
+                    <p>Date Of Birth*</p>
+                    <input type="date" name="date" id="dob">
+                </label>
+                <label for="age">
+                    <p> Age* </p>
+                    <input type="number" size="2" maxlength="2" id="age">
+                </label>
+            </div>
+            <p>Gendre* <br>
+                <input type="radio" name="genre" value="male">Male
+                <input type="radio" name="genre" value="female">Female <br>
+            </p>
+            <p>CNIC/B-Form* <br>
+                <input type="text" name="cnic" id="nic" size="180" placeholder="CNIC/B-Form">
+            </p>
+            <p>Father's Name* <br>
+                <input type="text" id="fname" size="180" placeholder="Father's Name">
+            </p>
+            <p>Father's/Guardian CNIC No* <br>
+                <input type="text" id="gnic" size="180" placeholder="Father's/Guardian CNIC No">
+            </p>
+            <p>Full and Permanent Address* <br>
+                <input type="text" name="address" id="address" size="180" placeholder="Full and Permanent Address">
+            </p>
+            <p>Cell Number* <br>
+                <input type="text" name="mno" id="cno" size="180" placeholder=" Cell Number">
+            </p>
+            <p>Email* <br>
+                <input type="email" name="mail" id="email" size="180" placeholder="Email">
+            </p>
+            <p>Last Qualification* <br>
+                <input type="radio" name="Qualification" value="none">None
+                <input type="radio" name="Qualification" value="matric">Matric
+                <input type="radio" name="Qualification" value="intermediate">Intermediate
+                <input type="radio" name="Qualification" value="bachelor">Bachelor
+                <input type="radio" name="Qualification" value="master">Master
+                <input type="radio" name="Qualification" value="phd">Phd
+            </p>
+            <p>Upload your recent image (face front, without glasses and with a single-colored background)* <br>
+                <input type="file" name="image">
+                <br> Only png or jpg with size 1mb is allowed
+            </p>
+            <p>Availibility* <br> Drag and drop class timings mentioned below as per your availibility and priority.
+            </p><table>
+                <tbody><tr>
+                    <td rowspan="2">Priority # 1</td>
+                    <td>Mon,Tue&amp;Wed</td>
+                </tr>
+                <tr>
+                    <td>3pm To 5pm</td>
+                </tr>
+            </tbody></table>
+            <p></p>
+            <p>Declaration Undertaking *
+            </p><ol>
+                <li>I hereby, solemnly declare that the data and facts mentioned herein are true and correct to the best
+                    of my knowledge. Further, I will abide by my all the establish and future regulation and policies of
+                    SWIT</li>
+                <li>I hereby accept the responsibilites of the good conduct and guarantee that I will not be involved in
+                    any other activity, polical or ethic, but learning during my stay in the program.</li>
+                <li>Defiance will render my admission cancelled at any point in time.</li>
+                <li>Upon completion of course, I will complete the required project by SWIT.</li>
+            </ol>
+            <p></p>
+            <input type="radio" name="agree"> I agree with the above terms.
+            <div>
+                
+                    <p>
+                        <input type="radio" name="capche">I'm not a robot
+                        <img src="./images/recap.PNG" alt="recaptcha" width="80" height="100">
+                    </p>
+                
+            </div></form>
+            <input type="submit" value="Submit">
+
+
+
+
+
+        
+    </div>
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>

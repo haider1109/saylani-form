@@ -1,0 +1,69 @@
+#header{
+    text-align: center
+}
+.course{
+    display: flex;
+    justify-content: space-between;
+   
+}
+#name{
+    border: none;
+    border-bottom: 1px solid black;
+}
+#fname{
+    border: none;
+    border-bottom: 1px solid black;
+}
+#nic{
+    border: none;
+    border-bottom: 1px solid black;
+}
+#gnic{
+    border: none;
+    border-bottom: 1px solid black;
+}
+#address{
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+#gnic{
+    border: none;
+    border-bottom: 1px solid black;
+}
+#cno{
+    border: none;
+    border-bottom: 1px solid black;
+}
+#gnic{
+    border: none;
+    border-bottom: 1px solid black;
+}
+#body{
+    padding-block: 20px;
+    margin: 0px 0px 130px 30px;
+    
+}
+.sb{
+    border: none;
+    border-bottom: 1px solid black;
+}
+.sc{
+    border: none;
+    border-bottom: 1px solid black;
+}
+.adob{
+    display: flex;
+    justify-content: space-between;
+}
+#age{
+    border: none;
+    border-bottom: 1px solid black;
+}
+#dob{
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+
+
